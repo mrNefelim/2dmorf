@@ -1,0 +1,35 @@
+body {
+    background: #000;
+}
+
+.title {
+    margin: 4vw 0 0 0;
+    font-family: "Unica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30vw;
+    color: rgb(244, 132, 152);
+    text-align: center;
+}
+
+.links {
+    display: block;
+    position: fixed;
+    bottom: 32px;
+    left: calc(50% - 210px);
+    width: 420px;
+    text-align: center;
+    font-size: 24px;
+    font-family: system-ui;
+}
+
+.links a {
+    margin-right: 20px;
+    color: rgb(244, 132, 152);
+    transition: .4s;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(132, 217, 244);
+}
